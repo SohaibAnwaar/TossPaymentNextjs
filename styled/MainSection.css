@@ -1,0 +1,98 @@
+.main-section{
+width:100%;
+}
+.main-section-heading{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+.main-section-heading h2{
+    color:rgb(51, 51, 51);
+    font-weight: 500;
+}
+.main-section-heading .paragram{
+    color:rgba(0,0,0,0.5);
+    font-size: medium;
+    font-weight: 100;
+}
+.main-section-heading .history-link{
+    color:#0f85fb;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: medium;
+    font-weight: 100;
+    text-decoration: none;
+
+}
+
+.table-manu ul{
+    margin-left: -30px;
+    margin-top: -10px;
+}
+.horizontal-line-table{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-right: 2%;
+    margin-top: -20px;
+}
+.table-manu li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 1px 10px;
+    color:rgba(0,0,0,0.5);
+    font-size: medium;
+    font-weight: 300;
+    padding: 8px;
+    border-radius: 8px;
+  
+  }
+  .table-manu li:hover{
+  color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.040);
+  }
+.table-manu li > a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+  }
+  
+.table-manu  li > a::after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 3px;
+    width: 0;
+    top: 5px;
+    background: transparent;
+    transition: all 0.3s;
+    
+  }
+  
+.table-manu  li > a:hover::after, li > a.active-nav::after {
+    width: 100%;
+    background: rgb(11, 11, 11);
+  }
+
+.transaction-table{
+
+    color:rgba(0,0,0,0.5);
+    font-size: medium;
+    font-weight: 100;
+}
+.transaction-table tr{
+    border:1px solid black;
+}
+.transaction-table tr th{
+    width: 22%;
+    text-align: start;
+    padding-left: 20px;
+    height: 80px;
+}
+
+label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+label span{
+    margin-left: 5px;
+    width: 20px;
+}
