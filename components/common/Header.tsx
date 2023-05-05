@@ -24,21 +24,19 @@ const Header = () => {
                   <a href="#" className="nav-link " data-toggle="dropdown">
                     business start
                   </a>
-                  <div className="dropdown-menu rounded-0 m-0">
-                    <div className="dropdown-shade">
-                      <a href="#" className="dropdown-item">
-                        Application for business registration
-                      </a>
-                      <a href="#" className="dropdown-item">
-                        Direct application for mail-order business
-                      </a>
-                      <a href="#" className="dropdown-item">
-                        sales ledger
-                      </a>
-                      <a href="#" className="dropdown-item">
-                        Safety number for business
-                      </a>
-                    </div>
+                  <div className="dropdown-menu rounded-0 m-0 dropdown-content">
+                    <a href="#" className="dropdown-item">
+                      Application for business registration
+                    </a>
+                    <a href="#" className="dropdown-item">
+                      Direct application for mail-order business
+                    </a>
+                    <a href="#" className="dropdown-item">
+                      sales ledger
+                    </a>
+                    <a href="#" className="dropdown-item">
+                      Safety number for business
+                    </a>
                   </div>
                 </div>
                 <div className="nav-item dropdown">
@@ -95,7 +93,7 @@ const Header = () => {
                 <a href="" className=" nav-item login btn">
                   log in
                 </a>
-                <a href="contact.html" className="nav-item apply">
+                <a href="contact.html" className="nav-item apply ">
                   Apply for electronic payment
                 </a>
               </div>

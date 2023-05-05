@@ -991,6 +991,9 @@ input[type="button"].btn-block {
 .dropdown-menu.show {
   display: block;
 }
+.navbar-light .navbar-nav .nav-link:hover .dropdown-menu {
+  display: block;
+}
 
 .dropdown-header {
   display: block;
@@ -2024,9 +2027,6 @@ input[type="button"].btn-block {
   .navbar-expand-sm .navbar-toggler {
     display: none;
   }
-  .navbar-light .navbar-nav .apply {
-    position: relative;
-  }
 }
 
 @media (max-width: 767.98px) {
@@ -2071,9 +2071,6 @@ input[type="button"].btn-block {
   .navbar-expand-md .navbar-toggler {
     display: none;
   }
-  .navbar-light .navbar-nav .apply {
-    position: relative;
-  }
 }
 
 @media (max-width: 991.98px) {
@@ -2085,9 +2082,6 @@ input[type="button"].btn-block {
   .navbar-expand-lg > .container-xl {
     padding-right: 0;
     padding-left: 0;
-  }
-  .navbar-light .navbar-nav .apply {
-    width: 20%;
   }
 }
 
@@ -2121,9 +2115,7 @@ input[type="button"].btn-block {
   .navbar-expand-lg .navbar-toggler {
     display: none;
   }
-  .navbar-light .navbar-nav .apply {
-    position: relative;
-  }
+
   .navbar-light .navbar-nav .nav-link {
     margin-left: 5px;
   }
@@ -2138,12 +2130,6 @@ input[type="button"].btn-block {
   .navbar-expand-xl > .container-xl {
     padding-right: 0;
     padding-left: 0;
-  }
-  .navbar-light .navbar-nav .apply {
-    position: relative;
-    right: 35%;
-    left: 35%;
-    width: 30%;
   }
 }
 
@@ -2242,6 +2228,18 @@ input[type="button"].btn-block {
   margin-left: 8px;
   padding: 12px;
   border-radius: 8px;
+}
+@media (max-width: 992px) {
+  .navbar-light .navbar-nav .apply {
+    background-color: #0f85fb;
+    color: white;
+    padding: 10px 10px 25px 10px;
+    border-radius: 8px;
+    height: 30px;
+    margin-top: 8px;
+    margin-left: 25%;
+    width: 40%;
+  }
 }
 .navbar-light .navbar-nav .apply {
   background-color: #0f85fb;
@@ -2367,4 +2365,20 @@ input[type="button"].btn-block {
 .dropdown-item-sub-module {
   font-size: 12px;
   color: rgba(0, 0, 0, 0.4);
+}
+
+/* /////////////////////// */
+
+/* Dropdown Button */
+.testing .dropbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
