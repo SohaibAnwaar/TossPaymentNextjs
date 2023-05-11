@@ -80,8 +80,8 @@ const Header = () => {
               </DropDownWrapper>
               <Link href="#">Developer Center</Link>
               <Link href="#">Check payment details</Link>
-              <Login href="">log in</Login>
-              <Button href="contact.html">Apply for electronic payment</Button>
+              <Login href="#">log in</Login>
+              <Button href="#">Apply for electronic payment</Button>
             </NavbarWrapper>
           </NavbarCollapse>
         </Nav>

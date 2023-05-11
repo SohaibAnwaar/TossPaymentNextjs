@@ -1,7 +1,5 @@
 import GlobalStyle from "../styled/GlobalStyle";
-import  "../styled/HeaderStyle.css";
-import  "../styled/MainSection.css";
-import  "../styled/FooterStyle.css";
+import "../styled/MainSection.css";
 import ProgressBar from "@badrap/bar-of-progress";
 import Router from "next/router";
 
